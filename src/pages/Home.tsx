@@ -8,14 +8,14 @@ export function Home() {
       <Heading level={2}>It's nice to meet you</Heading>
       <section className="flex flex-col gap-4">
         <Text>
-          I'm Doug, and I help organisations create and solve product and engineering problems
+          I&apos;m Doug, and I help organisations create and solve product and engineering problems
           through deep expertise, collaboration and open, honest communication.
         </Text>
         <Text>
-          I've spent the last 20 years in technology, building & designing software products,
+          I&apos;ve spent the last 20 years in technology, building & designing software products,
           leading teams, and solving problems in complex environments. From fast paced start-ups,
-          regulated fintech or security focussed defence consultancies, it's fair to say I've seen a
-          lot over the years.
+          regulated fintech or security focussed defence consultancies, it's fair to say I&apos;ve
+          seen a lot over the years.
         </Text>
         <Text>
           {' '}
