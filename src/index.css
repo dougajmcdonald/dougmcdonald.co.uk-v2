@@ -1,0 +1,22 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/inter/wght.css';
+@import '@fontsource/ibm-plex-sans';
+
+@theme {
+  --color-primary-50: #f5f5ef;
+  --color-primary-100: #ececdf;
+  --color-primary-200: #d8d8c0;
+  --color-primary-300: #c5c5a0;
+  --color-primary-400: #b1b181;
+  --color-primary-500: #9e9e61;
+  --color-primary-600: #7e7e4e;
+  --color-primary-700: #5f5f3a;
+  --color-primary-800: #3f3f27;
+  --color-primary-900: #202013;
+  --color-primary-950: #16160e;
+
+  --color-accent: #aa4f56;
+
+  --font-heading: 'Inter Variable', sans-serif;
+  --font-body: 'IBM Plex Sans', sans-serif;
+}
