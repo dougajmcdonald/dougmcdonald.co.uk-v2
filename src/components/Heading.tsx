@@ -27,7 +27,9 @@ export function Heading({ level = 1, as, children, ...rest }: HeadingProps) {
   return (
     <HtmlTag className={classes} {...rest}>
       {children}
-      <span className="text-accent">.</span>
+      <span aria-hidden="true" className="text-accent">
+        .
+      </span>
     </HtmlTag>
   )
 }

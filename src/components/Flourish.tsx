@@ -1,6 +1,6 @@
 export function Flourish() {
   return (
-    <div className="ml-2 flex items-center gap-2">
+    <div aria-hidden="true" className="ml-2 flex items-center gap-2">
       <div className="border-primary-600 flex size-36 items-center justify-center rounded-full border-10">
         <div className="border-primary-200 size-20 rounded-full border-8"></div>
       </div>

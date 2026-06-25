@@ -17,7 +17,7 @@ export function NavigationItem({ to, label }: NavigationItemProps) {
         to={to}
         className={({ isActive }) =>
           [
-            'flex h-full items-center justify-center rounded-b-sm px-3',
+            'hover:text-primary-800 flex h-full items-center justify-center rounded-b-sm px-3 hover:underline',
             isActive ? 'bg-primary-200 text-primary-800' : 'text-primary-700',
           ].join(' ')
         }
