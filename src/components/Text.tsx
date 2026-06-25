@@ -30,7 +30,7 @@ const textAlignmentClasses = {
 
 const textSizeClasses = {
   xs: ['text-xs'],
-  base: ['text-base'],
+  base: ['text-base/6'],
   sm: ['text-sm'],
   lg: ['text-lg'],
   xl: ['text-xl'],
@@ -46,13 +46,13 @@ export function Text({
   tone = 'neutral',
   weight = 'regular',
   align = 'left',
-  size,
+  size = 'base',
   as,
   className,
 }: TextProps): ReactNode {
-  const HtmlElement = as ? as : `span`
+  const HtmlElement = as ? as : `p`
 
-  const baseClasses = 'font-body'
+  const baseClasses = 'font-body '
 
   const toneClasses = textToneClasses[tone]
   const alignementClasses = textAlignmentClasses[align]
