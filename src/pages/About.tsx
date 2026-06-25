@@ -2,7 +2,7 @@ import { Text } from '@components/Text'
 import { Heading } from '@components/Heading'
 import { Article } from '@layout/Article'
 
-export function Home() {
+export function About() {
   return (
     <Article className="gap-12">
       <Heading level={2}>My story</Heading>

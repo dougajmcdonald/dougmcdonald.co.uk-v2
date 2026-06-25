@@ -39,7 +39,7 @@ export function Navigation() {
     <nav className="border-primary-200 flex w-full justify-center border-t">
       <NavigationItemList>
         {navLinkConfig.map((navLink) => (
-          <NavigationItem {...navLink} />
+          <NavigationItem key={navLink.to} {...navLink} />
         ))}
       </NavigationItemList>
     </nav>

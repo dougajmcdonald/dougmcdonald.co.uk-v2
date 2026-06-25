@@ -3,6 +3,8 @@ import { Wrapper } from '@layout/Wrapper'
 import { Header } from '@layout/Header'
 import { Navigation } from '@layout/Navigation'
 import { Home } from '@pages/Home'
+import { About } from '@pages/About'
+import { Work } from '@pages/Work'
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Navigation />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/work" element={<Work />} />{' '}
       </Routes>
     </Wrapper>
   )
