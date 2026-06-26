@@ -3,7 +3,7 @@ import { twMerge } from 'tailwind-merge'
 
 interface TextProps {
   children: React.ReactNode
-  tone?: 'neutral' | 'subtle'
+  tone?: 'neutral' | 'subtle' | 'accent'
   weight?: 'regular' | 'medium' | 'strong'
   align?: 'left' | 'center' | 'right'
   size?: 'xs' | 'base' | 'sm' | 'lg' | 'xl' | '2xl' | '3xl' | '4xl' | '5xl' | '6xl'
@@ -12,8 +12,9 @@ interface TextProps {
 }
 
 const textToneClasses = {
-  neutral: ['text-primary-700'],
+  neutral: ['text-primary-800'],
   subtle: ['text-primary-700'],
+  accent: ['text-accent'],
 }
 
 const textWeightClasses = {
@@ -52,7 +53,7 @@ export function Text({
 }: TextProps): ReactNode {
   const HtmlElement = as ? as : `p`
 
-  const baseClasses = 'font-body '
+  const baseClasses = 'font-body'
 
   const toneClasses = textToneClasses[tone]
   const alignementClasses = textAlignmentClasses[align]

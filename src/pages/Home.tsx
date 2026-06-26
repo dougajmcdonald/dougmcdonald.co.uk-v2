@@ -23,8 +23,8 @@ export function Home() {
           <Text>
             {' '}
             This shapes my experience and passions, my core mantra is{' '}
-            <span className="font-bold">design for change</span> as I believe this applies
-            universally across design, engineering and organisations.
+            <span className="text-accent font-bold">design for change</span> as I believe this
+            applies universally across design, engineering and organisations.
           </Text>
         </section>
       </Article>
