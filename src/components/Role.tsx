@@ -37,7 +37,7 @@ export function Role({ title, dates, company, children }: RoleProps) {
 
 export function SubRole({ title, dates, company, children }: RoleProps) {
   return (
-    <div className="my-8 ml-12 flex flex-col">
+    <div className="ml-12 flex flex-col py-8">
       <Heading level={3}>{title}</Heading>
       <Text tone="accent" size="sm" className="mt-1" weight="medium">
         {company}
