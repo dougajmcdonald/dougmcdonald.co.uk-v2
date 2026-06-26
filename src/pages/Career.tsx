@@ -23,41 +23,61 @@ export function Career() {
             and daily delivery. Cloud based systems integration with complex CMS and POS systems in
             realtime across 20+ luxury venues worldwide. Built an automated guest data pipeline
             using Playwright and GCP Cloud run tasks that replaced a 15-hour-per-week manual
-            process: identified the problem, scoped the solution and shipped it solo. Introduced
-            Omni as a semantic data layer across disparate client systems, replacing costly
-            third-party reporting and standardising data delivery across the product. Reframed how
-            the engineering team scopes work (PR/FAQ framing with Shape Up appetite sizing), making
-            platform investment legible to non-technical leadership for the first time. Designed and
-            implemented the organisation's design system, including automated design token export to
-            tailwind variables for a multi tenant, white labeled product.
+            process. Introduced Omni as a semantic data layer across disparate client systems,
+            replacing costly third-party reporting and standardising data delivery across the
+            product. Reframed how the engineering team scopes work (PR/FAQ framing with Shape Up
+            appetite sizing), making platform investment legible to non-technical leadership for the
+            first time. Designed and implemented the organisation's design system, including
+            automated design token export to tailwind variables for a multi tenant, white labeled
+            product.
           </Text>
         </Role>
 
         <Role title="Head of User Experience" dates="June 2023 - January 2025" company="Moneyhub">
           <Text>
-            Senior leadership in a regulated Open Banking fintech, working alongside CTO, CCO and
-            Product Director on a multi-tenant white-label platform. Hired, mentored and coached
-            designers and engineers to own the full problem space running their own research and
-            presenting directly to engineering rather than handing over a file. Built a data model
-            linking behavioural analytics to measurable client outcomes, shifting the product
-            organisation from reactive feature delivery to an evidence-based roadmap. Led strategic
-            product initiatives alongside the product director to win and extend key commercial
-            contacts.
+            Responsible for leading organisational UX strategy and product direction, growing the UX
+            team and increasing organisational UX maturity. Working alongside the CCO, CTO and
+            Product director using deep product and industry knowledge to promote sustainable
+            product growth that delivers against client outcomes. Leading and coaching a team of UX
+            designers who are responsible for taking early stage taking client opportunities running
+            workshops to establish problem statements and create concept work to articulate these
+            problems visually then turn the concepts into product features, collaborating with
+            engineering teams to produce high quality technically feasible outputs across a wide
+            range of clients in the financial services industry. In my role I designed and delivered
+            novel functionality into the product including, Open Banking payment solutions in our
+            role as a PISP, Rent Recognition, improving credit scores through submitting rent
+            payment history to credit reference agencies, Emergency Cash fund building increasing
+            financial resilience and Pension finding services locating lost pension accounts amongst
+            many others. Beyond feature delivery, I created a conceptual data model linking
+            behavioural analytics and user financial data to user and client outcomes to establish a
+            product led future for the organisation. This enabled a transformative change in sales,
+            product and development strategy unlocking new opportunities and upselling opportunities
+            to existing clients. This has shifted the organisational dynamic from responding to
+            client feature requests, to creating a clear product direction, backed by data analytics
+            to demonstrate product success.
           </Text>
           <SubRole title="Lead UX Developer" dates="June 2020 - June 2023" company="Moneyhub">
             <Text>
-              First design-engineering hire and major front-end contributor in a 50-person
-              engineering organisation; sole owner of the front end design across the white-label
-              web app (and a packaged mobile app), from user research through build to shipped,
-              production UI. Designed, built and drove adoption of a unified white-label design
-              system with brand-token architecture in production at Standard Life, Mercer and Legal
-              & General. Designed and delivered Moneyhub’s first Open Banking payment initiation
-              (PISP) capability, working directly with standards bodies; it handles £500k–£1m in
-              payments per month in production. Worked with the data science team to surface the
-              auto-categorisation engine’s top predictions in a single interaction; the engine now
-              powers categorisation for HSBC across several products. Designed and shipped tens of
-              features, including Savings Goals feature, trialled with Standard Life (over £500k in
-              goals set within the first two weeks) and rolled out across all clients.
+              As a hybrid UX Designer and Developer, I was hired to introduce design to an
+              engineering led organisation in a way which was accessible and adoptable by Agile
+              development teams, due to resource balance this quickly shifted to a design only role.
+              I delivered the entire design process for all new features in the Moneyhub whitelabel
+              web & mobile app, including research, ideation, lo-fi & hi-fi design, prototyping,
+              usability testing, developer handoff & ongoing support during development. This
+              involved establishing a pragmatic UX process educating the immediate and wider teams
+              of the value whilst delivering robust, thoughtful design solutions. The specific
+              environment requires expert product and domain understanding to identify wider re-use
+              and value from niche client requirements, whilst retaining consistency and growth in
+              the product. As a team of one, serving an engineering team size of 50, I quickly
+              realised that I needed to scale myself to support the business. As part of my role, I
+              took on the responsibility of creating a scalable process and system to enable rapid
+              growth. I led the project, alongside our Senior tech leads to architect, to design and
+              implement a multi-tenanted white label design system and supporting design &
+              development processes. The system codified design in a way that enabled complex
+              theming and customisation across multiple major enterprise clients, increased delivery
+              speed through solving problems like component accessibility in a single place and
+              gained organisation wide adoption through collaboration and dedicated skill sharing
+              sessions and documentation.
             </Text>
           </SubRole>
         </Role>
@@ -68,13 +88,13 @@ export function Career() {
           company="BMT Group"
         >
           <Text>
-            Built a new practice from zero to one: recruited, onboarded and mentored, and won round
-            a resistant function through sustained stakeholder work. Led MoD client engagements
+            Built a new practice from zero to one: recruited, onboarded and mentored, and won over a
+            resistant function through sustained stakeholder work. Led MoD client engagements
             resulting in a £60k contract renewal and a new £200k contract for a mobile application
             for safety officers on major UK platforms. Experience working in government GDS
             processes, with a project for the (GLAA) to reduce time taken to complete an application
-            process in a complex environment where decisions affected people’s lives. Continue to
-            lead, mentor and develop the department wide engineering capability.
+            process in a complex environment where decisions affected people’s lives. Continued
+            leading, mentoring and developing the department wide engineering capability.
           </Text>
           <SubRole
             title="Chartered IT Professional (CITP)"
@@ -84,7 +104,7 @@ export function Career() {
             <Text>
               Studied for, presented to a panel of my peers and gained Chartered IT Professional
               (CITP) membership proving that I operate at the highest levels of technical and
-              professional competence and your skills are matched by your ethical integrity.
+              professional competence and my skills are matched by my ethical integrity.
             </Text>
           </SubRole>
           <SubRole
@@ -97,9 +117,7 @@ export function Career() {
               master and project manager across classified defence programmes. Technical architect
               and lead on numerous UK MoD and local government projects. Prime-contractor technical
               and delivery lead on JUMP, a £1m/year, two-year classified programme; led 8 engineers
-              and two subcontractor organisations, and won the extension. Owner of the department's
-              innovation process, facilitating and supporting engineers to go outside their area of
-              expertise, try new ideas and bring those back to the team. Led and implemented the
+              and two subcontractor organisations, and won the extension. Led and implemented the
               department’s process improvement strategy, including the transition from vanilla JS to
               React, from manual SQL scripts to source controlled database projects and VSS to git.
               Ran the graduate interview and assessment process for several years and mentored
@@ -108,12 +126,13 @@ export function Career() {
           </SubRole>
           <SubRole title="Software Developer" dates="February 2011 - July 2012" company="BMT Group">
             <Text>
-              Led the migration of a large .NET Webforms estate onto ASP.NET MVC, retiring legacy
-              incrementally and enabling unit testing across core applications for the first time.
-              Built the company-wide Management Information System, which became critical
-              infrastructure during BMT’s ~£90m MARS tanker programme win. Influenced buy vs build
-              decisions for a complex gantt charting component to achieve this. Delivered
-              eCassandra, a UK MoD risk-reporting system (£200k) using Ext.NET and Sencha.js
+              My role involved the development of complex line of business and large-scale
+              management information systems. Included gathering and managing conflicting customer
+              requirements and full responsibility for release planning and deployment. I led the
+              migration from .NET webforms to .NET MVC in many of our core applications, which
+              enabled effective unit testing for the first time. I also advocated and implemented a
+              transition from rigid front-end frameworks to more flexibly designed approaches,
+              providing a better user experience for our customers.
             </Text>
           </SubRole>
         </Role>
