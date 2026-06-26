@@ -13,7 +13,7 @@ export function Career() {
       </Text>
       <section className="flex flex-col">
         <Role
-          title="Head of product design"
+          title="Head of Product Design"
           dates="January 2025 - Present"
           company="DVx Zumi UK Ltd"
         >
@@ -37,7 +37,7 @@ export function Career() {
           </Text>
         </Role>
 
-        <Role title="Head of user experience" dates="June 2023 - January 2025" company="Moneyhub">
+        <Role title="Head of User Experience" dates="June 2023 - January 2025" company="Moneyhub">
           <Text>
             Senior leadership in a regulated Open Banking fintech, working alongside CTO, CCO and
             Product Director on a multi-tenant white-label platform. HIred, mentored and coached
@@ -48,7 +48,7 @@ export function Career() {
             product initiatives alongside the product director to win and extend key commercial
             contacts.
           </Text>
-          <SubRole title="Lead UX developer" dates="June 2020 - June 2023" company="Moneyhub">
+          <SubRole title="Lead UX Developer" dates="June 2020 - June 2023" company="Moneyhub">
             <Text>
               First design-engineering hire and major front-end contributor in a 50-person
               engineering organisation; sole owner of the front end design across the white-label
@@ -81,6 +81,17 @@ export function Career() {
             process in a complex environment where decisions affected people’s lives. Continue to
             lead, mentor and develop the department wide engineering capability.
           </Text>
+          <SubRole
+            title="Chartered IT Professional (CITP)"
+            dates="May 2020"
+            company="British Computer Society"
+          >
+            <Text>
+              Studied for, presented to a panel of my peers and gained Chartered IT Professional
+              (CITP) membership proving that I operate at the highest levels of technical and
+              professional competence and your skills are matched by your ethical integrity.
+            </Text>
+          </SubRole>
           <SubRole
             title="Senior Software Developer"
             dates="July 2012 - March 2019"
@@ -119,15 +130,22 @@ export function Career() {
           company="National Milk Records"
         >
           <Text>
-            Built iReports, giving farmers real-time access to test results with filtering and
-            export, self-initiated, self-delivered, and still in active production today. Designed
-            and maintained a 100GB transactionally replicated SQL Server topology. Owned HAMSTA, the
-            microbiology testing application serving results for approximately 97% of UK dairy
-            farmers.
+            Initially supported the Artemis system, designing and maintaining database procedures
+            for the UK's nationwide milk testing system. Learned to manage and maintain a 100GB
+            transactionally replicated database topology. Latterly, worked in end to end software
+            development where I built iReports, giving farmers real-time access to test results with
+            filtering and reporting which is still in active production use today. Solo developed
+            "HAMSTA", the microbiology testing application serving results for approximately 97% of
+            UK dairy farmers.
           </Text>
         </Role>
         <Role title="Graduate Placement" dates="July 2005 - August 2006" company="Somerfield">
-          <Text>TODO</Text>
+          <Text>
+            Worked in several different departments, Hardware support, Customer support, IT
+            Security, ePOS &amp; Enterprise Architecture over the course of a year. Learned SQL
+            Server from a book and was offered a 3 month extension supporting the Project Office's
+            data analysis team.
+          </Text>
         </Role>
         <Role
           title="BSc (Hons) Computer science"

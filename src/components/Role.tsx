@@ -23,7 +23,7 @@ export function Role({ title, dates, company, children }: RoleProps) {
       <TimePoint />
       <div className="ml-6 flex flex-col">
         <Heading level={3}>{title}</Heading>
-        <Text tone="accent" size="sm" className="mt-1">
+        <Text tone="accent" size="sm" className="mt-1" weight="medium">
           {company}
         </Text>
         <Text tone="subtle" size="sm" className="mb-4">
@@ -39,7 +39,7 @@ export function SubRole({ title, dates, company, children }: RoleProps) {
   return (
     <div className="my-8 ml-12 flex flex-col">
       <Heading level={3}>{title}</Heading>
-      <Text tone="accent" size="sm" className="mt-1">
+      <Text tone="accent" size="sm" className="mt-1" weight="medium">
         {company}
       </Text>
       <Text tone="subtle" size="sm" className="mb-4">
