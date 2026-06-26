@@ -51,14 +51,12 @@ export function Career() {
         >
           <Text>
             Leadership role, responsible for leading organisational UX strategy and product
-            direction, growing the UX team and increasing organisational UX maturity. Working the
-            Product director using deep product and industry knowledge to promote sustainable
-            product growth that delivers against client outcomes. Designed and delivered novel
-            functionality into the product including:
+            direction, growing the UX team and increasing organisational UX maturity. Working with
+            the Product director promote sustainable product growth aligned to client outcomes.
           </Text>
           <AchievementList
             achievements={[
-              'Led strategic product initiatives to win and extend key commercial contacts',
+              'Led strategic product initiatives to win and extend key commercial contacts include £250k a quarter with Standard Life',
               'Rent Recognition - improving credit scores through submitting rent payment history to credit reference agencies',
               'Emergency Cash fund - increasing financial resilience for end users',
               'Pension finding services - locating lost pension accounts amongst many others',
