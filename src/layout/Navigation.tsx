@@ -30,7 +30,7 @@ export function NavigationItem({ to, label }: NavigationItemProps) {
 
 const navLinkConfig = [
   { to: '/', label: 'home' },
-  { to: '/work', label: 'work' },
+  // { to: '/work', label: 'work' },
   { to: '/career', label: 'career' },
   { to: '/about', label: 'about' },
 ]
