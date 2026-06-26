@@ -4,7 +4,7 @@ import { Article } from '@layout/Article'
 
 export function About() {
   return (
-    <Article className="gap-12">
+    <Article>
       <Heading level={2}>My story</Heading>
       <section className="flex flex-col gap-4">
         <Text>

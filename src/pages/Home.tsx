@@ -6,7 +6,7 @@ import { Headshot } from '@components/Headshot'
 export function Home() {
   return (
     <>
-      <Article className="gap-12">
+      <Article>
         <Heading level={2}>It's nice to meet you</Heading>
 
         <section className="flex flex-col gap-4">

@@ -6,7 +6,7 @@ import { Portfolio } from '@components/Portfolio'
 export function Work() {
   return (
     <>
-      <Article className="gap-12">
+      <Article>
         <Heading level={2}>My work</Heading>
         <section className="flex flex-col gap-4">
           <Text>

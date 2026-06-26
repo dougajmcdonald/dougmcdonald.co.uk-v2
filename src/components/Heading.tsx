@@ -12,7 +12,7 @@ export interface HeadingProps extends HTMLAttributes<HTMLHeadingElement> {
 
 export const headingLevelClasses: Record<HeadingLevel, readonly string[]> = {
   1: ['sm:text-6xl', 'text-4xl'],
-  2: ['text-3xl'],
+  2: ['sm:text-3xl', 'text-2xl'],
   3: ['text-2xl'],
   4: ['text-base'],
 }
