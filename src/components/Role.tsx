@@ -14,10 +14,11 @@ export interface RoleProps {
   title: string
   dates: string
   company: string
+  industry?: string
   children: ReactNode
 }
 
-export function Role({ title, dates, company, children }: RoleProps) {
+export function Role({ title, dates, company, industry, children }: RoleProps) {
   return (
     <section className="border-primary-400 flex border-l py-8">
       <TimePoint />
@@ -25,6 +26,12 @@ export function Role({ title, dates, company, children }: RoleProps) {
         <Heading level={3}>{title}</Heading>
         <Text tone="accent" size="sm" className="mt-1" weight="medium">
           {company}
+          {industry && (
+            <>
+              {' '}
+              · <span className="font-normal">{industry}</span>
+            </>
+          )}
         </Text>
         <Text tone="subtle" size="sm" className="mb-4">
           {dates}
@@ -35,17 +42,17 @@ export function Role({ title, dates, company, children }: RoleProps) {
   )
 }
 
-export function SubRole({ title, dates, company, children }: RoleProps) {
-  return (
-    <div className="ml-12 flex flex-col py-8">
-      <Heading level={3}>{title}</Heading>
-      <Text tone="accent" size="sm" className="mt-1" weight="medium">
-        {company}
-      </Text>
-      <Text tone="subtle" size="sm" className="mb-4">
-        {dates}
-      </Text>
-      {children}
-    </div>
-  )
-}
+// export function SubRole({ title, dates, company, children }: RoleProps) {
+//   return (
+//     <div className="ml-12 flex flex-col py-8">
+//       <Heading level={3}>{title}</Heading>
+//       <Text tone="accent" size="sm" className="mt-1" weight="medium">
+//         {company}
+//       </Text>
+//       <Text tone="subtle" size="sm" className="mb-4">
+//         {dates}
+//       </Text>
+//       {children}
+//     </div>
+//   )
+// }
