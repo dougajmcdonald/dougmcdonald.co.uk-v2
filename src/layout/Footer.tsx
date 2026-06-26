@@ -10,7 +10,7 @@ const links = [
 export function Footer() {
   return (
     <footer className="border-primary-200 mt-6 flex min-h-12 w-full items-center justify-center border-t">
-      <ul className="my-8 flex gap-12">
+      <ul className="my-8 flex flex-col items-center gap-4 sm:flex-row sm:gap-12">
         {links.map((link) => (
           <Link to={link.url}>
             {link.icon && <link.icon className="text-primary-500 size-6" />}
