@@ -4,8 +4,8 @@ import type { ReactNode } from 'react'
 
 export function TimePoint() {
   return (
-    <div className="border-primary-400 bg-primary-100 -ml-6 flex size-12 shrink-0 items-center justify-center rounded-full border-4">
-      <div className="bg-primary-400 size-6 rounded-full"></div>
+    <div className="border-primary-400 bg-primary-100 -ml-4 flex size-8 shrink-0 items-center justify-center rounded-full border-4 sm:-ml-6 sm:size-12">
+      <div className="bg-primary-400 size-4 rounded-full sm:size-6"></div>
     </div>
   )
 }
@@ -20,9 +20,9 @@ export interface RoleProps {
 
 export function Role({ title, dates, company, industry, children }: RoleProps) {
   return (
-    <section className="border-primary-400 flex border-l py-8">
+    <section className="border-primary-400 flex border-l py-4 sm:py-8">
       <TimePoint />
-      <div className="ml-6 flex flex-col">
+      <div className="ml-4 flex flex-col sm:ml-6">
         <Heading level={3}>{title}</Heading>
         <Text tone="accent" size="sm" className="mt-1" weight="medium">
           {company}

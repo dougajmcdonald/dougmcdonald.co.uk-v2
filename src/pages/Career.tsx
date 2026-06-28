@@ -178,7 +178,7 @@ export function Career() {
           </Text>
         </Role>
         <Role
-          title="BSc (Hons) Computer science"
+          title="BSc (Hons) Computer Science"
           dates="Sep 2002 - July 2005"
           company="UWA (University of Wales, Aberystwyth)"
         >
